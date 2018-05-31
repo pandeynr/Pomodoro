@@ -7,4 +7,4 @@ Pomodoro clock created using JQUERY
 
 
 
-dont use jqeury
+Lesson to take away... Don't really like JQUERY
