@@ -1,0 +1,124 @@
+.currentTime{
+    font-size: 3vw;
+    background: white;
+    color: rgb(137,207,240);
+    padding: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+  
+body{
+  background:rgb(137,207,240);  
+}
+  
+.pomodoro{
+    position:relative;
+    display:block;
+    margin: auto;
+    background: white;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+}
+  
+.timer{
+    height:65px;
+    width:175px;
+    display: block;
+    background: rgb(137,207,240);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: -110px 0 0 -90px;
+    border-radius:45% 45% 5% 5%;
+    font-family: 'Exo 2', sans-serif;
+    font-size:300%;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+  
+.inputs{
+    display:block;
+    height:140px;
+    width:220px;
+    background: rgb(137,207,240);
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    margin: -100px 0 0 -110px;
+    border-radius:15% 15% 70% 70%;
+    transition: background 1s linear;
+}
+  
+.min{
+    visibility:visible;
+    color: rgb(137,207,240);
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    display: block;
+    background: white;
+    width:70px;
+    height: 50px;
+    transition: visibility 0.5s ease-out 1.5s, color 2s ease-out;
+}
+  
+.plus1{
+    top:10%;
+    left:10%;
+    position: absolute;
+    border-radius:15% 15% 50% 50%;
+}
+  
+.minus1{
+    top:10%;
+    left:60%;
+    position: absolute;
+    border-radius:15% 15% 50% 50%;
+}
+  
+.start{
+    display:block;
+    width: 150px;
+    height:40px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 150%;
+    color: rgb(137,207,240);
+    text-align: center;
+    margin-top:75px;
+    margin-left:35px;
+    background: white;
+    border-radius: 15% 15% 50% 50%;
+    padding-top:5px;
+}
+  
+.plus1:hover {
+    background-color: rgb(137,207,240);
+    color:white;
+    border-style: solid;
+    border-color:white;
+    border-width: 2px;
+}
+  
+.minus1:hover {
+    background-color: rgb(137,207,240);
+    color:white;
+    border-style: solid;
+    border-color:white;
+    border-width: 2px;
+}
+  
+.start:hover {
+    font-weight: bold;
+    color: rgb(220,20,60);
+}
+  
+.disable-select {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+  
+  
